@@ -1,4 +1,54 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>3 · PMBOK Industrial Field Map</title><style id="pubcss">.face.rear .lock{margin-top:14px;padding:14px 12px;border:1px dashed currentColor;border-radius:8px;text-align:center}.face.rear .lock .lk1{font-family:Oswald,sans-serif;letter-spacing:.12em;text-transform:uppercase;font-size:13px;margin:0 0 6px;color:#9C7A2E}.face.rear .lock .lk2{font-size:12.5px;margin:0 0 10px;color:#3A3D42}.face.rear .lock .lk3{display:inline-block;font-size:12px;font-weight:600;padding:6px 12px;border-radius:999px;background:#15171A;color:#E9DDBF;text-decoration:none}.pubbar{background:#15171A;color:#E9E4D8;font:500 12.5px Inter,sans-serif;text-align:center;padding:7px 10px}.pubbar a{color:#D9B66A}.pubbar .red{color:#E9E4D8}</style><style id="nozbar">.zbar{display:none!important}</style></head><body style="margin:0"><div class="pubbar">Public preview · card fronts only. <span class="red">The backs are client material.</span> PMBOK is a registered mark of the Project Management Institute, Inc.; MC&amp;C is not affiliated with PMI. <a href="../index.html" target="_top">← Back to the MC&amp;C site</a></div>
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>3 · PMBOK Industrial Field Map</title><style id="pubcss">.face.rear .lock{margin-top:14px;padding:14px 12px;border:1px dashed currentColor;border-radius:8px;text-align:center}.face.rear .lock .lk1{font-family:Oswald,sans-serif;letter-spacing:.12em;text-transform:uppercase;font-size:13px;margin:0 0 6px;color:#9C7A2E}.face.rear .lock .lk2{font-size:12.5px;margin:0 0 10px;color:#3A3D42}.face.rear .lock .lk3{display:inline-block;font-size:12px;font-weight:600;padding:6px 12px;border-radius:999px;background:#15171A;color:#E9DDBF;text-decoration:none}.pubbar{background:#15171A;color:#E9E4D8;font:500 12.5px Inter,sans-serif;text-align:center;padding:7px 10px}.pubbar a{color:#D9B66A}.pubbar .red{color:#E9E4D8}</style><style id="nozbar">.zbar{display:none!important}</style><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@800&family=Chakra+Petch:wght@500;600&display=swap"><style id="mcctheme">
+/* MC&C site theme on the public maps: dark radar desk, stencil + Chakra type, glowing gold controls */
+:root{--g1:#EACB84;--g2:#C9A25E;--g3:#A07C3B;--hair:rgba(255,255,255,.1);--hair2:rgba(255,255,255,.18);--txt:#EDE8DD;--txt2:#B9B2A3;--stencil:'Big Shoulders Stencil Display','Arial Narrow',Impact,sans-serif;--chakra:'Chakra Petch','Arial Narrow',Arial,sans-serif}
+html,body{background:#0A0B0D!important}
+body{color:var(--txt)}
+.mgrid,.mradar{position:fixed;pointer-events:none;z-index:-1}
+.mgrid{inset:0;background-image:linear-gradient(rgba(184,147,90,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(184,147,90,.06) 1px,transparent 1px),linear-gradient(rgba(184,147,90,.1) 1px,transparent 1px),linear-gradient(90deg,rgba(184,147,90,.1) 1px,transparent 1px);background-size:32px 32px,32px 32px,160px 160px,160px 160px}
+.mradar{width:min(1100px,140vw);aspect-ratio:1;right:-22vw;bottom:-30vh;border-radius:50%;background:repeating-radial-gradient(circle,transparent 0 79px,rgba(184,147,90,.16) 79px 80px),linear-gradient(transparent calc(50% - .5px),rgba(184,147,90,.14) calc(50% - .5px) calc(50% + .5px),transparent calc(50% + .5px)),linear-gradient(90deg,transparent calc(50% - .5px),rgba(184,147,90,.14) calc(50% - .5px) calc(50% + .5px),transparent calc(50% + .5px));-webkit-mask-image:radial-gradient(circle,#000 55%,transparent 71%);mask-image:radial-gradient(circle,#000 55%,transparent 71%)}
+.mradar i{position:absolute;inset:0;border-radius:50%;background:conic-gradient(from 0deg,transparent 0deg 290deg,rgba(217,182,106,.05) 320deg,rgba(217,182,106,.22) 359deg,rgba(240,210,140,.38) 360deg);animation:msweep 7s linear infinite}
+.mradar b{position:absolute;width:8px;height:8px;margin:-4px;border-radius:50%;background:#FF5A43;box-shadow:0 0 6px 2px rgba(255,90,67,.6),0 0 18px 6px rgba(255,90,67,.22);animation:mblip 7s linear infinite;opacity:0}
+@keyframes msweep{to{transform:rotate(360deg)}}
+@keyframes mblip{0%{opacity:1;transform:scale(1.5)}10%{transform:scale(1)}70%{opacity:.08}100%{opacity:0}}
+@media (prefers-reduced-motion:reduce){.mradar i,.mradar b{animation:none}.mradar b{opacity:.6}}
+/* type */
+h1,.banner h1,#poster header.top h1,main h2{font-family:var(--stencil)!important;font-weight:800!important;text-transform:uppercase;letter-spacing:.02em}
+.pubbar,.seq,nav.bar,.chip,.seq a,.seq span.cur,a.open,.status,.eyebrow,.seql,footer{font-family:var(--chakra)!important}
+/* bars */
+.pubbar{background:#070809!important;border-bottom:1px solid var(--hair)}
+.seq{background:rgba(14,15,17,.88)!important;border-bottom:1px solid var(--hair)!important;-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px)}
+nav.bar{background:rgba(18,19,22,.9)!important;border-bottom:1px solid var(--hair)}
+.seq a,.seq span.cur{border-radius:12px!important;border:1px solid var(--hair2)!important;background:rgba(255,255,255,.04)}
+.seq a:hover{border-color:rgba(234,203,132,.6)!important;box-shadow:0 0 22px rgba(234,203,132,.18)}
+.seq span.cur,.seq a.next{background:linear-gradient(180deg,var(--g1),var(--g2) 55%,var(--g3))!important;color:#17130B!important;border:1px solid rgba(255,232,178,.6)!important;box-shadow:0 0 0 1px rgba(201,162,94,.25),0 6px 22px rgba(201,162,94,.35),0 0 36px rgba(234,203,132,.16)}
+.seq a.next{animation:mglow 3.2s ease-in-out infinite}
+.chip{border-radius:999px!important;border:1px solid color-mix(in srgb,var(--c,#B8935A) 55%,rgba(255,255,255,.2))!important;background:rgba(255,255,255,.035)!important;padding:4px 12px!important}
+.chip:hover{box-shadow:0 0 18px rgba(234,203,132,.18)}
+.chip.on{background:linear-gradient(180deg,var(--g1),var(--g2) 55%,var(--g3))!important;color:#17130B!important;border-color:rgba(255,232,178,.6)!important;box-shadow:0 0 0 1px rgba(201,162,94,.3),0 4px 18px rgba(201,162,94,.35)}
+a.open{border-radius:12px!important;background:linear-gradient(180deg,var(--g1),var(--g2) 55%,var(--g3))!important;color:#17130B!important;border:1px solid rgba(255,232,178,.6)!important;box-shadow:0 6px 22px rgba(201,162,94,.35),0 0 36px rgba(234,203,132,.16);animation:mglow 3.2s ease-in-out infinite}
+@keyframes mglow{0%,100%{box-shadow:0 0 0 1px rgba(201,162,94,.25),0 6px 22px rgba(201,162,94,.32),0 0 30px rgba(234,203,132,.12)}50%{box-shadow:0 0 0 1px rgba(234,203,132,.45),0 8px 30px rgba(201,162,94,.5),0 0 56px rgba(234,203,132,.28)}}
+@media (prefers-reduced-motion:reduce){.seq a.next,a.open{animation:none}}
+.cpop-toast{border-radius:14px;border:1px solid var(--hair)}.cpop-toast button{border-radius:10px;background:linear-gradient(180deg,var(--g1),var(--g2))!important}
+/* headers on dark */
+header.banner{background:rgba(255,255,255,.03)!important;border:0!important;border-bottom:1px solid var(--hair)!important}
+header.banner,header.banner h1,header.banner p,header.banner .sub{color:var(--txt)!important}
+header.banner .eyebrow{color:var(--g1)!important}
+/* posters: light document on the dark desk */
+#poster{background:#F4EFE4;border-radius:18px;box-shadow:0 30px 80px rgba(0,0,0,.6),0 0 0 1px rgba(201,162,94,.35)}
+/* operating flow text sections */
+main.wrap section>h2,main.wrap section>p.lede,main.wrap section>p.hint{color:var(--txt)}
+main.wrap section>p.hint{color:var(--txt2)}
+.plate{border-radius:16px;overflow:hidden;border:1px solid rgba(201,162,94,.35);box-shadow:0 20px 50px rgba(0,0,0,.5)}
+.compare>div{border-radius:14px}
+main.wrap>footer,footer{color:#8D887E!important}
+/* index page */
+body>header{background:transparent!important;border-bottom:1px solid var(--hair)}
+main.w,main.w h2,main.w ul,main.w li{color:var(--txt)}
+main.w .card{background:rgba(255,255,255,.035)!important;border:1px solid var(--hair)!important;border-top:3px solid var(--g2)!important;border-radius:16px;color:var(--txt)}
+main.w .card,main.w .card *{color:var(--txt2)!important}main.w .card h3,main.w .card h2,main.w .card b{color:var(--txt)!important}
+main.w .card a,main.w .card .r{color:var(--g1)!important}
+main.w a{color:var(--g1)}
+</style></head><body style="margin:0"><div class="mgrid" aria-hidden="true"></div><div class="mradar" aria-hidden="true"><i></i><b style="left:30%;top:28%;animation-delay:-0.82s"></b><b style="left:68%;top:40%;animation-delay:-5.82s"></b><b style="left:44%;top:70%;animation-delay:-3.18s"></b></div><div class="pubbar">Public preview · card fronts only. <span class="red">The backs are client material.</span> PMBOK is a registered mark of the Project Management Institute, Inc.; MC&amp;C is not affiliated with PMI. <a href="../index.html" target="_top">← Back to the MC&amp;C site</a></div>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=EB+Garamond:ital@0;1&family=Inter:wght@400;500;600&display=swap">
 <style>
